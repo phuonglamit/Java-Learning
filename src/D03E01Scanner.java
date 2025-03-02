@@ -23,7 +23,7 @@ public class D03E01Scanner {
         System.out.println("Input x:");
         String x = sc.nextLine();
         System.out.println("Input y:");
-        String y = sc.nextLine(); //Vì ở trên đang dùng nextInt nên giờ khi khai báo nextLine thì hệ thống không nhận input y, để xử lý cần phải comment đoạn phía trên lại để chạy thử
+        String y = sc.nextLine(); //Vì ở trên đang dùng nextInt nên giờ khi khai báo nextLine thì hệ thống không nhận input y, để xử lý cần phải comment đoạn phía trên lại để chạy thử, hoặc tạo đối tượng riêng cho từng dữ liệu nhập vào
         String z = x + y;
         System.out.println("Output x + y:");
         System.out.println(z);
