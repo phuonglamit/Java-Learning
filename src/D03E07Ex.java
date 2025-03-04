@@ -31,8 +31,7 @@ public class D03E07Ex {
         }
         else 
             System.out.println("Thân hình béo");
-        sc.close();
-        
+        sc.close();        
 
     }
 
