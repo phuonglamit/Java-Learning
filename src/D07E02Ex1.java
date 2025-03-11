@@ -7,7 +7,9 @@ public class D07E02Ex1 {
         int tong = 0;
         for (i = 0; i <= 10; i+=2){
             tong+=i; // tong = tong + i
+
         }
+        System.out.println(tong);
     }
     
 }
